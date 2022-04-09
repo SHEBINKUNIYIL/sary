@@ -44,7 +44,7 @@ extension HomeViewController:UICollectionViewDataSource,UICollectionViewDelegate
             else if catalog.uiType == .slider && catalog.dataType == .banner{
                 let width  = (collectionView.frame.width-20)
                 let height = width*(268/1000)
-                return CGSize(width: width, height: 200)
+                return CGSize(width: width, height: height)
                 
             }
             else if catalog.uiType == .grid && catalog.dataType == .group{

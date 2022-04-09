@@ -1,0 +1,12 @@
+Pods/
+	
+# Xcode
+xcuserdata/
+Sary.xcworkspace/
+DerivedData/
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+
