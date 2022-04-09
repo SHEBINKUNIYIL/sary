@@ -37,6 +37,7 @@
 		866E9C282800F7470069303B /* Sary Soft Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 866E9C222800F7460069303B /* Sary Soft Light.otf */; };
 		866E9C292800F7470069303B /* Sary Soft ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 866E9C232800F7460069303B /* Sary Soft ExtraLight.otf */; };
 		86993C2C2801030000C639E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86993C2B2801030000C639E0 /* Constants.swift */; };
+		86993C2E2801090700C639E0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86993C2D2801090700C639E0 /* Toast.swift */; };
 		86AA8BD128008D660057E893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8BD028008D660057E893 /* AppDelegate.swift */; };
 		86AA8BD528008D660057E893 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8BD428008D660057E893 /* HomeViewController.swift */; };
 		86AA8BD828008D660057E893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8BD628008D660057E893 /* Main.storyboard */; };
@@ -81,6 +82,7 @@
 		866E9C222800F7460069303B /* Sary Soft Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sary Soft Light.otf"; sourceTree = "<group>"; };
 		866E9C232800F7460069303B /* Sary Soft ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sary Soft ExtraLight.otf"; sourceTree = "<group>"; };
 		86993C2B2801030000C639E0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		86993C2D2801090700C639E0 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		86AA8BCD28008D660057E893 /* Sary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AA8BD028008D660057E893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86AA8BD428008D660057E893 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			children = (
 				866E9BA12800A2150069303B /* Network.swift */,
 				866E9C162800D78D0069303B /* UIViewExtension.swift */,
+				86993C2D2801090700C639E0 /* Toast.swift */,
 				86993C2B2801030000C639E0 /* Constants.swift */,
 			);
 			path = helper;
@@ -371,6 +374,7 @@
 				86AA8BD528008D660057E893 /* HomeViewController.swift in Sources */,
 				86AA8BD128008D660057E893 /* AppDelegate.swift in Sources */,
 				866E9C032800AE980069303B /* Header.swift in Sources */,
+				86993C2E2801090700C639E0 /* Toast.swift in Sources */,
 				866E9BA22800A2150069303B /* Network.swift in Sources */,
 				866E9C052800AE980069303B /* Metadata.swift in Sources */,
 				866E9B962800996C0069303B /* SceneDelegate.swift in Sources */,

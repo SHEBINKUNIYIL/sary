@@ -61,4 +61,16 @@ extension BannerCollectionViewCell:UICollectionViewDataSource,UICollectionViewDe
         }
 
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let banner = self.banners{
+       let banner = banner[indexPath.row]
+            Toast().show(message: banner.link)
+        }
+        else if  let sliders = self.sliderBanner{
+          let sliderBanner = sliders[indexPath.row]
+            Toast().show(message: sliderBanner.deepLink ?? "")
+
+
+        }
+    }
 }
